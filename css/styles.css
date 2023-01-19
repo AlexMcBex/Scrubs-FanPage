@@ -1,0 +1,72 @@
+body{
+    background-image: url("../img/wallpaper.png");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', Roboto, Verdana;
+
+}
+h1{
+    font-size: 70px;
+    font-family: 'Stylish', Roboto;
+    color: #ffffff;
+}
+
+main{
+    position: relative;
+    /* height: 100%;
+    width: 80%; */
+    /* display: flex; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#container{
+    flex-wrap: wrap;
+}
+.character{
+    background-color: rgb(72, 157, 159);
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 2px;
+    border: solid 2px rgb(5, 84, 130);
+    margin-top: 5px;
+}
+.search{
+    height: 30px;
+    display: inline;
+}
+#searchbutton{
+    display: none;
+}
+img{
+    width: 280px;
+    height:280px;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 20px;
+    display: inline-block;
+    border: 2px solid rgb(5, 84, 130);
+}
+#janimg{
+    object-fit: cover;
+    object-position: 0% 100%;
+}
+.name{
+    margin-top: 0;
+    background-color: rgb(5, 84, 130);
+    color:white;
+    font-style: italic;
+}
+.button{
+    display: inline-block;
+    background-color: rgb(5, 84, 130);
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 20px
+}
